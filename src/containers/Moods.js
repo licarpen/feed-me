@@ -5,7 +5,6 @@ import feedMeReducer from '../reducers/feedMeReducer';
 import { getFace } from '../selectors/faceSelector';
 import { addCoffee, addSnack, addNap, addStudy } from '../actions/feedMeActions';
 
-
 const Moods = () => {
     
   const [foodState, dispatch] = useReducer(feedMeReducer, { coffees: 0, snacks: 0, naps: 0, studies: 0 });
