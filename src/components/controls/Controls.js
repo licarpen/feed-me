@@ -16,8 +16,7 @@ Controls.propTypes = {
   actions: PropTypes.arrayOf(PropTypes.shape({
     name: PropTypes.string.isRequired,
     text: PropTypes.string
-  })).isRequired,
-  dispatch: PropTypes.func.isRequied
+  })).isRequired
 };
 
 export default Controls;
